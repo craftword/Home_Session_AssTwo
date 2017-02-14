@@ -8,7 +8,7 @@ var client = new Client();
 var args = {
     data: {
     title: 'PYTHON AND NODEJS'
-  }
+  },
     headers: { "Content-Type": "application/json" }
 };
  

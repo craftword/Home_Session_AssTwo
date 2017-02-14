@@ -10,7 +10,7 @@ var args = {
     title: 'JAVASCRIPT OOP',
     body: 'Javascript is the best subject',
     userId: 1
-  }
+  },
     headers: { "Content-Type": "application/json" }
 };
  
