@@ -2,9 +2,14 @@ exports.reverseString = function (string) {
    arr = string.split("");
    rev = arr.reverse();
    str= rev.toString();
-   if(str.replace( /,/g, "" ) === string) {
+   if (string === "") {
+    	return null;
+    
+   }
+   else if(str.replace( /,/g, "" ) === string) {
     return true;
-   }else {
+     }
+    else {
      return str.replace( /,/g, "" );
    }
     
